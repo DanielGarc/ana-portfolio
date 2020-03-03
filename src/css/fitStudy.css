@@ -1,132 +1,220 @@
 .fitStudyWrapper {
-    margin: 0 auto;
-    width: 70%;
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+  background-color: #000000;
 }
 
-.sectionOne {
-    display: flex;
-    flex-direction: row;
-    background-color: #f0f9ff;
-    margin-top: -10px;
-    padding-top: 20px;
-    
+.fitStudyContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1025x;
+  background-color: #A7DCFF;
 }
 
-.overview {
-    border-right: 1px solid black;
-    width: 50%;
-    margin-left: 5%;
-    text-align: left;
-    font-size: 18px;
-    font-weight: 400;
-    padding-right: 5%;
+.fitStudyContent img {
+  display: block;
+  width: 1025px;
+  max-width: 1025px;
+  height: auto;
+  margin: auto;
 }
 
-.roles {
-    
-    padding-left: 5%;
-    font-weight: 400;
-    text-align: left;
-    
+.fitStudyOverviewSectionContentWrapper {
+  width: 100%;
+  text-align: center;
+  background-color: #f0f9ff;
 }
 
-.whiteBoxWrapper {
-    background-color: #f0f9ff;
-    padding-top: 80px;
-    padding-bottom: 80px;
+.fitStudyOverviewSectionContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #f0f9ff;
+  max-width: 1025px;
+
+  margin: auto;
 }
 
-.whiteBox {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    font-weight: 400;
-    padding: 10px;
-    margin: 0 auto;
-    height: 150px;
-    width: 60%;
-    background-color: white;
-    box-shadow: 1px 1px 2px lightslategray;
+.fitStudyOverviewSectionCaption {
+  margin: auto var(--margin-lg) auto var(--margin-lg);
 }
 
-.designCycle {
-    background-color: white;
-    margin-top: 80px;
+.fitStudyOverviewIconsSection {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  max-width: 1025px;
+  background-color: red;
 }
 
-.firstData {
-    background-color: #f0f9ff;
-    height: 300px;
-    text-align: left;
-    padding-left: 10%;
-    padding-top: 5%;
-    margin-top: 60px;
-    font-weight: 300;
+.data-section-header {
+  display: flex;
+  align-self: flex-start;
+
+  color: #3d3d3d;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 29px;
+
+  margin: 51px var(--margin-lg) auto var(--margin-lg);
 }
 
-.userSection {
-    min-height: 328px;
-    max-height: 328px;
-    background-color: #132b43;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+.data-section-sub-header {
+  display: flex;
+  align-self: flex-start;
+  text-align: left;
 
+  color: #3d3d3d;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 22px;
+
+  margin: 2px var(--margin-lg) auto var(--margin-lg);
 }
+
+.data-section-paragraph {
+  display: flex;
+  align-self: flex-start;
+
+  text-align: left;
+
+  margin: auto var(--margin-lg) auto var(--margin-lg);
+}
+
+.data-section-paragraph ul {
+  margin: 0;
+  padding-left: 24px;
+}
+
+li {
+  margin: 10px 0;
+}
+
+/* revise from here down */
 
 .trainers {
-    max-height: 328px;
-    color: white;
-    text-align: left;
-    padding-left: 109px;
-    line-height: 0.5;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    
-    
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  text-align: left;
+  align-items: center;
+  color: white;
 
+  margin: 0px var(--margin-lg) auto var(--margin-lg);
 }
 
-.avatarStyle  {
-	height: 105px;
-	width: 106px;
+.avatarStyle {
+  width: 105px;
+  height: auto;
 }
 
 .trainerBox {
-    /* margin-top: 5%; */
-    margin-left: 14px;
-    
+  align-self: flex-start;
+  /* margin-top: 5%; */
+  margin-left: 14px;
 }
 
+.trainerBox h2 {
+  color: #fafdff;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 29px;
 
-.trainerBox p{
-	color: #F0F9FF;
-	font-family: Lato;
-	font-size: 16px;
-	font-weight: 300;
-    line-height: 19px;
-    width: 687px;
-    white-space: pre-wrap;
+  margin: 0;
 }
 
+.trainerBox p {
+  color: #f0f9ff;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
 
-.targetSection {
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    line-height: 1;
-    padding: 0 20px;
-    padding-top: 50px;
-    text-align: left;
-    background-color: #f0f9ff;
+  margin: 0;
 }
 
-.targetReady {
-    width: 50%;
-    font-weight: 300;
+.trainerBox h3 {
+  color: #f0f9ff;
+  font-family: Lato;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+
+  margin: 0;
 }
 
+.workshop-p1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  justify-content: flex-start;
+  text-align: left;
+  align-items: flex-end;
+
+  margin: 0px var(--margin-lg) auto var(--margin-lg);
+}
+
+.workshop-p1-textbox {
+  margin-left: 56px;
+}
+
+.workshop-p2 {
+  text-align: left;
+  margin: 0px var(--margin-lg) auto var(--margin-lg);
+}
+
+workshop-p2 > ol {
+  margin: 0;
+}
+
+.workshop-p2-dotimg-container {
+  display: block;
+  text-align: center;
+}
+
+.workshop-p2 > img {
+  /* display: flex; */
+  /* align-self: center; */
+  margin: auto;
+}
+
+.workshop-p2-list-item {
+  color: #3d3d3d;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 19px;
+}
+
+.stakeholder {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  justify-content: space-between;
+  text-align: left;
+  align-items: flex-start;
+
+  margin: 0px var(--margin-lg) auto var(--margin-lg);
+}
+
+.stakeholder-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.stakeholder-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.stakeholder-divider {
+  display: block;
+  margin: 0 81px;
+}
